@@ -1,4 +1,9 @@
+# ⚠️⚠️⚠️ATENÇÃO⚠️⚠️⚠️
+
+O presente código é funcional, mas devido a erros de planejamento da parte do autor no semestre em que esse programa foi feito, o usuário poderá encontrar problemas de execução. Em caso positivo, abra uma issue do projeto.
+
 # Modelo de Ising
+
 ## Sobre o projeto
 Esse repositório consta de um projeto do Modelo de Ising, programado no período 2024.2 do curso de *Computação Científica de Alto Desempenho*, ministrado pelo professor Marcos Veríssimo Alves, da Universidade Federal Fluminense no polo de Volta Redonda - RJ.
 
