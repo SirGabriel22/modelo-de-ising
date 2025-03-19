@@ -1,0 +1,1112 @@
+funcoesising.h:81:17: note: Considering inline candidate variaEnergia/25.
+funcoesising.h:81:17: missed:   will not early inline: probabilidade/26->variaEnergia/25, call is cold and code would grow at least by 15
+funcoesising.h:130:54: note: Considering inline candidate probabilidade/26.
+funcoesising.h:130:54: missed:   will not early inline: metropolis/29->probabilidade/26, growth 4 exceeds --param early-inlining-insns divided by number of calls
+funcoesising.h:128:20: note: Considering inline candidate variaEnergia/25.
+funcoesising.h:128:20: missed:   will not early inline: metropolis/29->variaEnergia/25, call is cold and code would grow at least by 15
+funcoesising.h:174:48: note: Considering inline candidate energiaTotal/28.
+funcoesising.h:174:48: missed:   will not early inline: ising/30->energiaTotal/28, call is cold and code would grow at least by 39
+funcoesising.h:174:21: note: Considering inline candidate energiaTotal/28.
+funcoesising.h:174:21: missed:   will not early inline: ising/30->energiaTotal/28, call is cold and code would grow at least by 39
+funcoesising.h:173:20: note: Considering inline candidate energiaTotal/28.
+funcoesising.h:173:20: missed:   will not early inline: ising/30->energiaTotal/28, call is cold and code would grow at least by 39
+funcoesising.h:171:48: note: Considering inline candidate magnetizacao/27.
+funcoesising.h:171:48: missed:   will not early inline: ising/30->magnetizacao/27, call is cold and code would grow at least by 10
+funcoesising.h:171:21: note: Considering inline candidate magnetizacao/27.
+funcoesising.h:171:21: missed:   will not early inline: ising/30->magnetizacao/27, call is cold and code would grow at least by 10
+funcoesising.h:170:25: note: Considering inline candidate magnetizacao/27.
+funcoesising.h:170:25: missed:   will not early inline: ising/30->magnetizacao/27, call is cold and code would grow at least by 10
+funcoesising.h:168:13: note: Considering inline candidate metropolis/29.
+funcoesising.h:168:13: missed:   will not early inline: ising/30->metropolis/29, call is cold and code would grow at least by 28
+funcoesising.h:162:13: note: Considering inline candidate metropolis/29.
+funcoesising.h:162:13: missed:   will not early inline: ising/30->metropolis/29, call is cold and code would grow at least by 28
+funcoesising.h:150:12: note: Considering inline candidate copiaMatriz/23.
+funcoesising.h:150:12: missed:   will not early inline: ising/30->copiaMatriz/23, call is cold and code would grow at least by 23
+modeloising.c:38:5: note: Considering inline candidate imprimeMatriz/24.
+modeloising.c:38:5: missed:   will not early inline: main/31->imprimeMatriz/24, call is cold and code would grow at least by 13
+modeloising.c:34:15: note: Considering inline candidate ising/30.
+modeloising.c:34:15: missed:   will not early inline: main/31->ising/30, call is cold and code would grow at least by 86
+modeloising.c:30:5: note: Considering inline candidate imprimeMatriz/24.
+modeloising.c:30:5: missed:   will not early inline: main/31->imprimeMatriz/24, call is cold and code would grow at least by 13
+modeloising.c:26:5: note: Considering inline candidate inicializaSpins/22.
+modeloising.c:26:5: missed:   will not early inline: main/31->inicializaSpins/22, call is cold and code would grow at least by 13
+modeloising.c:44:5: missed:   not inlinable: main/31 -> printf/34, function body not available
+modeloising.c:40:19: missed:   not inlinable: main/31 -> clock/42, function body not available
+modeloising.c:38:5: missed:   not inlinable: main/31 -> imprimeMatriz/24, call is unlikely and code size would grow
+modeloising.c:36:5: missed:   not inlinable: main/31 -> __builtin_puts/38, function body not available
+modeloising.c:34:15: missed:   not inlinable: main/31 -> ising/30, --param max-inline-insns-auto limit reached
+modeloising.c:32:5: missed:   not inlinable: main/31 -> __builtin_putchar/35, function body not available
+modeloising.c:30:5: missed:   not inlinable: main/31 -> imprimeMatriz/24, call is unlikely and code size would grow
+modeloising.c:29:5: missed:   not inlinable: main/31 -> __builtin_puts/38, function body not available
+modeloising.c:26:5: missed:   not inlinable: main/31 -> inicializaSpins/22, call is unlikely and code size would grow
+modeloising.c:22:22: missed:   not inlinable: main/31 -> malloc/33, function body not available
+modeloising.c:20:15: missed:   not inlinable: main/31 -> malloc/33, function body not available
+modeloising.c:16:22: missed:   not inlinable: main/31 -> malloc/33, function body not available
+modeloising.c:14:15: missed:   not inlinable: main/31 -> malloc/33, function body not available
+modeloising.c:10:22: missed:   not inlinable: main/31 -> clock/42, function body not available
+funcoesising.h:179:9: missed:   not inlinable: ising/30 -> fprintf/41, function body not available
+funcoesising.h:173:20: missed:   not inlinable: ising/30 -> energiaTotal/28, --param max-inline-insns-auto limit reached
+funcoesising.h:168:13: missed:   not inlinable: ising/30 -> metropolis/29, --param max-inline-insns-auto limit reached
+funcoesising.h:162:13: missed:   not inlinable: ising/30 -> metropolis/29, --param max-inline-insns-auto limit reached
+funcoesising.h:154:5: missed:   not inlinable: ising/30 -> __builtin_fwrite/40, function body not available
+funcoesising.h:150:12: missed:   not inlinable: ising/30 -> copiaMatriz/23, --param max-inline-insns-auto limit reached
+funcoesising.h:148:19: missed:   not inlinable: ising/30 -> malloc/33, function body not available
+funcoesising.h:146:12: missed:   not inlinable: ising/30 -> malloc/33, function body not available
+funcoesising.h:143:9: missed:   not inlinable: ising/30 -> exit/39, function body not available
+funcoesising.h:142:9: missed:   not inlinable: ising/30 -> __builtin_puts/38, function body not available
+funcoesising.h:140:16: missed:   not inlinable: ising/30 -> fopen/37, function body not available
+funcoesising.h:130:25: missed:   not inlinable: metropolis/29 -> rand/32, function body not available
+funcoesising.h:128:20: missed:   not inlinable: metropolis/29 -> variaEnergia/25, --param max-inline-insns-auto limit reached
+funcoesising.h:126:13: missed:   not inlinable: metropolis/29 -> rand/32, function body not available
+funcoesising.h:125:13: missed:   not inlinable: metropolis/29 -> rand/32, function body not available
+funcoesising.h:81:12: missed:   not inlinable: probabilidade/26 -> exp/36, function body not available
+funcoesising.h:81:17: missed:   not inlinable: probabilidade/26 -> variaEnergia/25, --param max-inline-insns-auto limit reached
+funcoesising.h:62:9: missed:   not inlinable: imprimeMatriz/24 -> __builtin_putchar/35, function body not available
+funcoesising.h:58:13: missed:   not inlinable: imprimeMatriz/24 -> printf/34, function body not available
+funcoesising.h:31:18: missed:   not inlinable: copiaMatriz/23 -> malloc/33, function body not available
+funcoesising.h:29:11: missed:   not inlinable: copiaMatriz/23 -> malloc/33, function body not available
+funcoesising.h:19:26: missed:   not inlinable: inicializaSpins/22 -> rand/32, function body not available
+funcoesising.h:170:25: optimized:  Inlined magnetizacao/43 into ising/30 which now has time 8117160.375000 and size 110, net change of +12.
+funcoesising.h:130:54: optimized:  Inlined probabilidade/44 into metropolis/29 which now has time 91.643600 and size 40, net change of +4.
+Unit growth for small function inlining: 390->406 (4%)
+
+Inlined 2 calls, eliminated 0 functions
+
+BB 5 is always executed in loop 1
+BB 3 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:16:18: missed: couldn't vectorize loop
+funcoesising.h:16:18: missed: not vectorized: control flow in loop.
+funcoesising.h:18:23: missed: couldn't vectorize loop
+funcoesising.h:19:26: missed: statement clobbers memory: _1 = rand ();
+funcoesising.h:12:5: note: vectorized 0 loops in function.
+funcoesising.h:19:26: missed: statement clobbers memory: _1 = rand ();
+funcoesising.h:19:26: missed: statement clobbers memory: _1 = rand ();
+funcoesising.h:22:12: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:22:12: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 6 is always executed in loop 1
+BB 4 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+BB 5 is always executed in loop 2
+BB 6 is always executed in loop 2
+BB 4 is always executed in loop 3
+BB 3 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 3's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+consider run-time aliasing test between *_15 and *_18
+consider run-time aliasing test between *_15 and *_18
+funcoesising.h:33:18: missed: couldn't vectorize loop
+funcoesising.h:33:18: missed: not vectorized: control flow in loop.
+funcoesising.h:35:22: missed: couldn't vectorize loop
+funcoesising.h:35:22: missed: not vectorized: unsupported data-type
+funcoesising.h:30:18: missed: couldn't vectorize loop
+funcoesising.h:31:18: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:25:7: note: vectorized 0 loops in function.
+funcoesising.h:31:18: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:29:11: missed: statement clobbers memory: aux_29 = malloc (_2);
+funcoesising.h:31:18: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:43:12: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:43:12: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 7 is always executed in loop 2
+BB 8 is always executed in loop 2
+BB 6 is always executed in loop 3
+BB 4 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 3's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+BB 5 is always executed in loop 1
+BB 3 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:54:23: missed: couldn't vectorize loop
+funcoesising.h:54:23: missed: not vectorized: control flow in loop.
+funcoesising.h:56:27: missed: couldn't vectorize loop
+funcoesising.h:58:13: missed: statement clobbers memory: printf ("%d\t", _8);
+funcoesising.h:52:6: note: vectorized 0 loops in function.
+funcoesising.h:58:13: missed: failed: evolution of base is not affine.
+funcoesising.h:58:13: missed: statement clobbers memory: printf ("%d\t", _8);
+funcoesising.h:58:13: missed: statement clobbers memory: printf ("%d\t", _8);
+funcoesising.h:62:9: missed: statement clobbers memory: __builtin_putchar (10);
+funcoesising.h:66:1: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:66:1: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 6 is always executed in loop 1
+BB 4 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:75:27: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:75:27: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+funcoesising.h:81:17: missed: statement clobbers memory: _1 = variaEnergia (mat_5(D), m_6(D), n_7(D));
+funcoesising.h:81:12: missed: statement clobbers memory: _10 = exp (_3);
+funcoesising.h:81:12: note: ***** Analysis failed with vector mode VOID
+BB 4 is always executed in loop 1
+BB 5 is always executed in loop 1
+BB 3 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:89:22: missed: couldn't vectorize loop
+funcoesising.h:89:22: missed: not vectorized: control flow in loop.
+funcoesising.h:91:26: missed: couldn't vectorize loop
+funcoesising.h:85:8: missed: not vectorized: unsupported data-type double
+funcoesising.h:85:8: note: vectorized 0 loops in function.
+funcoesising.h:99:21: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:99:21: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 4 is always executed in loop 1
+BB 5 is always executed in loop 1
+BB 3 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+BB 4 is always executed in loop 1
+BB 5 is always executed in loop 1
+BB 3 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:110:28: missed: failed: evolution of base is not affine.
+funcoesising.h:111:28: missed: failed: evolution of base is not affine.
+funcoesising.h:112:17: missed: failed: evolution of base is not affine.
+funcoesising.h:113:17: missed: failed: evolution of base is not affine.
+funcoesising.h:112:17: missed: failed: evolution of base is not affine.
+funcoesising.h:113:17: missed: failed: evolution of base is not affine.
+funcoesising.h:106:22: missed: couldn't vectorize loop
+funcoesising.h:106:22: missed: not vectorized: control flow in loop.
+funcoesising.h:108:26: missed: couldn't vectorize loop
+funcoesising.h:102:8: missed: not vectorized: unsupported data-type double
+funcoesising.h:102:8: note: vectorized 0 loops in function.
+funcoesising.h:112:17: missed: failed: evolution of base is not affine.
+funcoesising.h:113:17: missed: failed: evolution of base is not affine.
+funcoesising.h:120:19: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:120:19: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 5 is always executed in loop 1
+BB 6 is always executed in loop 1
+BB 4 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:125:13: missed: statement clobbers memory: _1 = rand ();
+funcoesising.h:126:13: missed: statement clobbers memory: _2 = rand ();
+funcoesising.h:128:20: missed: statement clobbers memory: delta_26 = variaEnergia (mat_25(D), a_21, b_24);
+funcoesising.h:130:25: missed: statement clobbers memory: _3 = rand ();
+funcoesising.h:81:17: missed: statement clobbers memory: _31 = variaEnergia (mat_25(D), a_21, b_24);
+funcoesising.h:81:12: missed: statement clobbers memory: _34 = exp (_33);
+funcoesising.h:133:1: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:133:1: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 7 is always executed in loop 2
+BB 14 is always executed in loop 2
+BB 8 is always executed in loop 4
+BB 10 is always executed in loop 5
+BB 11 is always executed in loop 5
+BB 9 is always executed in loop 6
+BB 5 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 4's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 5's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 6's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 3's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:156:34: missed: couldn't vectorize loop
+funcoesising.h:156:34: missed: not vectorized: loop nest containing two or more consecutive inner loops cannot be vectorized
+funcoesising.h:166:26: missed: couldn't vectorize loop
+funcoesising.h:166:26: missed: not vectorized: multiple nested loops.
+funcoesising.h:89:22: missed: couldn't vectorize loop
+funcoesising.h:89:22: missed: not vectorized: control flow in loop.
+funcoesising.h:91:26: missed: couldn't vectorize loop
+funcoesising.h:135:7: missed: not vectorized: unsupported data-type double
+funcoesising.h:161:26: missed: couldn't vectorize loop
+funcoesising.h:162:13: missed: statement clobbers memory: metropolis (mat1_50, m_44(D), n_48(D), temp_112);
+funcoesising.h:147:22: missed: couldn't vectorize loop
+funcoesising.h:148:19: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:135:7: note: vectorized 0 loops in function.
+funcoesising.h:148:19: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:162:13: missed: statement clobbers memory: metropolis (mat1_50, m_44(D), n_48(D), temp_112);
+funcoesising.h:140:16: missed: statement clobbers memory: fp_43 = fopen ("dados.dat", "w");
+funcoesising.h:146:12: missed: statement clobbers memory: mat1_46 = malloc (_2);
+funcoesising.h:148:19: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:150:12: missed: statement clobbers memory: mat1_50 = copiaMatriz (mat_47(D), m_44(D), n_48(D));
+funcoesising.h:154:5: missed: statement clobbers memory: __builtin_fwrite ("Temperatura\tMagnetizacao\tEnergia\tCalor Especifico\tSuscetibilidade Magn\xc3\xa9tica\n", 1, 77, fp_43);
+funcoesising.h:162:13: missed: statement clobbers memory: metropolis (mat1_50, m_44(D), n_48(D), temp_112);
+funcoesising.h:168:13: missed: statement clobbers memory: metropolis (mat1_50, m_44(D), n_48(D), temp_112);
+funcoesising.h:173:20: missed: statement clobbers memory: _61 = energiaTotal (mat1_50, m_44(D), n_48(D));
+funcoesising.h:179:9: missed: statement clobbers memory: fprintf (fp_43, "\n%g\t%g\t%g\t%g\t%g\n", temp_112, _28, _11, calor_52, susce_53);
+funcoesising.h:142:9: missed: statement clobbers memory: __builtin_puts (&"\nErro ao abrir arquivo!"[0]);
+funcoesising.h:143:9: missed: statement clobbers memory: exit (1);
+funcoesising.h:143:9: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:143:9: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 8 is always executed in loop 2
+BB 16 is always executed in loop 2
+BB 9 is always executed in loop 4
+BB 12 is always executed in loop 5
+BB 13 is always executed in loop 5
+BB 11 is always executed in loop 6
+BB 6 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 4's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 5's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 6's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 3's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+BB 5 is always executed in loop 2
+BB 3 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+modeloising.c:21:22: missed: couldn't vectorize loop
+modeloising.c:22:22: missed: statement clobbers memory: _8 = malloc (40);
+modeloising.c:15:22: missed: couldn't vectorize loop
+modeloising.c:16:22: missed: statement clobbers memory: _4 = malloc (40);
+modeloising.c:8:5: note: vectorized 0 loops in function.
+modeloising.c:16:22: missed: statement clobbers memory: _4 = malloc (40);
+modeloising.c:22:22: missed: statement clobbers memory: _8 = malloc (40);
+modeloising.c:10:22: missed: statement clobbers memory: inicio_17 = clock ();
+modeloising.c:14:15: missed: statement clobbers memory: matriz1_19 = malloc (80);
+modeloising.c:16:22: missed: statement clobbers memory: _4 = malloc (40);
+modeloising.c:20:15: missed: statement clobbers memory: matriz2_21 = malloc (80);
+modeloising.c:22:22: missed: statement clobbers memory: _8 = malloc (40);
+modeloising.c:26:5: missed: statement clobbers memory: inicializaSpins (matriz1_19, 10, 10);
+modeloising.c:29:5: missed: statement clobbers memory: __builtin_puts (&"\nMalha:"[0]);
+modeloising.c:30:5: missed: statement clobbers memory: imprimeMatriz (matriz1_19, 10, 10);
+modeloising.c:32:5: missed: statement clobbers memory: __builtin_putchar (10);
+modeloising.c:34:15: missed: statement clobbers memory: matriz2_27 = ising (matriz1_19, 10, 10);
+modeloising.c:36:5: missed: statement clobbers memory: __builtin_puts (&"\nEstado final da malha:"[0]);
+modeloising.c:38:5: missed: statement clobbers memory: imprimeMatriz (matriz2_27, 10, 10);
+modeloising.c:40:19: missed: statement clobbers memory: fim_31 = clock ();
+modeloising.c:44:5: missed: statement clobbers memory: printf ("\nO tempo de execu\xc3\xa7\xc3\xa3o foi de %lf segundos.", tempo_32);
+modeloising.c:8:5: note: ***** Analysis failed with vector mode V2DI
+modeloising.c:8:5: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 5 is always executed in loop 2
+BB 3 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:81:17: note: Considering inline candidate variaEnergia/25.
+funcoesising.h:81:17: missed:   will not early inline: probabilidade/26->variaEnergia/25, call is cold and code would grow at least by 15
+funcoesising.h:130:54: note: Considering inline candidate probabilidade/26.
+funcoesising.h:130:54: missed:   will not early inline: metropolis/29->probabilidade/26, growth 4 exceeds --param early-inlining-insns divided by number of calls
+funcoesising.h:128:20: note: Considering inline candidate variaEnergia/25.
+funcoesising.h:128:20: missed:   will not early inline: metropolis/29->variaEnergia/25, call is cold and code would grow at least by 15
+funcoesising.h:174:48: note: Considering inline candidate energiaTotal/28.
+funcoesising.h:174:48: missed:   will not early inline: ising/30->energiaTotal/28, call is cold and code would grow at least by 39
+funcoesising.h:174:21: note: Considering inline candidate energiaTotal/28.
+funcoesising.h:174:21: missed:   will not early inline: ising/30->energiaTotal/28, call is cold and code would grow at least by 39
+funcoesising.h:173:20: note: Considering inline candidate energiaTotal/28.
+funcoesising.h:173:20: missed:   will not early inline: ising/30->energiaTotal/28, call is cold and code would grow at least by 39
+funcoesising.h:171:48: note: Considering inline candidate magnetizacao/27.
+funcoesising.h:171:48: missed:   will not early inline: ising/30->magnetizacao/27, call is cold and code would grow at least by 10
+funcoesising.h:171:21: note: Considering inline candidate magnetizacao/27.
+funcoesising.h:171:21: missed:   will not early inline: ising/30->magnetizacao/27, call is cold and code would grow at least by 10
+funcoesising.h:170:25: note: Considering inline candidate magnetizacao/27.
+funcoesising.h:170:25: missed:   will not early inline: ising/30->magnetizacao/27, call is cold and code would grow at least by 10
+funcoesising.h:168:13: note: Considering inline candidate metropolis/29.
+funcoesising.h:168:13: missed:   will not early inline: ising/30->metropolis/29, call is cold and code would grow at least by 28
+funcoesising.h:162:13: note: Considering inline candidate metropolis/29.
+funcoesising.h:162:13: missed:   will not early inline: ising/30->metropolis/29, call is cold and code would grow at least by 28
+funcoesising.h:150:12: note: Considering inline candidate copiaMatriz/23.
+funcoesising.h:150:12: missed:   will not early inline: ising/30->copiaMatriz/23, call is cold and code would grow at least by 23
+modeloising.c:38:5: note: Considering inline candidate imprimeMatriz/24.
+modeloising.c:38:5: missed:   will not early inline: main/31->imprimeMatriz/24, call is cold and code would grow at least by 13
+modeloising.c:34:15: note: Considering inline candidate ising/30.
+modeloising.c:34:15: missed:   will not early inline: main/31->ising/30, call is cold and code would grow at least by 86
+modeloising.c:30:5: note: Considering inline candidate imprimeMatriz/24.
+modeloising.c:30:5: missed:   will not early inline: main/31->imprimeMatriz/24, call is cold and code would grow at least by 13
+modeloising.c:26:5: note: Considering inline candidate inicializaSpins/22.
+modeloising.c:26:5: missed:   will not early inline: main/31->inicializaSpins/22, call is cold and code would grow at least by 13
+modeloising.c:44:5: missed:   not inlinable: main/31 -> printf/34, function body not available
+modeloising.c:40:19: missed:   not inlinable: main/31 -> clock/42, function body not available
+modeloising.c:38:5: missed:   not inlinable: main/31 -> imprimeMatriz/24, call is unlikely and code size would grow
+modeloising.c:36:5: missed:   not inlinable: main/31 -> __builtin_puts/38, function body not available
+modeloising.c:34:15: missed:   not inlinable: main/31 -> ising/30, --param max-inline-insns-auto limit reached
+modeloising.c:32:5: missed:   not inlinable: main/31 -> __builtin_putchar/35, function body not available
+modeloising.c:30:5: missed:   not inlinable: main/31 -> imprimeMatriz/24, call is unlikely and code size would grow
+modeloising.c:29:5: missed:   not inlinable: main/31 -> __builtin_puts/38, function body not available
+modeloising.c:26:5: missed:   not inlinable: main/31 -> inicializaSpins/22, call is unlikely and code size would grow
+modeloising.c:22:22: missed:   not inlinable: main/31 -> malloc/33, function body not available
+modeloising.c:20:15: missed:   not inlinable: main/31 -> malloc/33, function body not available
+modeloising.c:16:22: missed:   not inlinable: main/31 -> malloc/33, function body not available
+modeloising.c:14:15: missed:   not inlinable: main/31 -> malloc/33, function body not available
+modeloising.c:10:22: missed:   not inlinable: main/31 -> clock/42, function body not available
+funcoesising.h:179:9: missed:   not inlinable: ising/30 -> fprintf/41, function body not available
+funcoesising.h:173:20: missed:   not inlinable: ising/30 -> energiaTotal/28, --param max-inline-insns-auto limit reached
+funcoesising.h:168:13: missed:   not inlinable: ising/30 -> metropolis/29, --param max-inline-insns-auto limit reached
+funcoesising.h:162:13: missed:   not inlinable: ising/30 -> metropolis/29, --param max-inline-insns-auto limit reached
+funcoesising.h:154:5: missed:   not inlinable: ising/30 -> __builtin_fwrite/40, function body not available
+funcoesising.h:150:12: missed:   not inlinable: ising/30 -> copiaMatriz/23, --param max-inline-insns-auto limit reached
+funcoesising.h:148:19: missed:   not inlinable: ising/30 -> malloc/33, function body not available
+funcoesising.h:146:12: missed:   not inlinable: ising/30 -> malloc/33, function body not available
+funcoesising.h:143:9: missed:   not inlinable: ising/30 -> exit/39, function body not available
+funcoesising.h:142:9: missed:   not inlinable: ising/30 -> __builtin_puts/38, function body not available
+funcoesising.h:140:16: missed:   not inlinable: ising/30 -> fopen/37, function body not available
+funcoesising.h:130:25: missed:   not inlinable: metropolis/29 -> rand/32, function body not available
+funcoesising.h:128:20: missed:   not inlinable: metropolis/29 -> variaEnergia/25, --param max-inline-insns-auto limit reached
+funcoesising.h:126:13: missed:   not inlinable: metropolis/29 -> rand/32, function body not available
+funcoesising.h:125:13: missed:   not inlinable: metropolis/29 -> rand/32, function body not available
+funcoesising.h:81:12: missed:   not inlinable: probabilidade/26 -> exp/36, function body not available
+funcoesising.h:81:17: missed:   not inlinable: probabilidade/26 -> variaEnergia/25, --param max-inline-insns-auto limit reached
+funcoesising.h:62:9: missed:   not inlinable: imprimeMatriz/24 -> __builtin_putchar/35, function body not available
+funcoesising.h:58:13: missed:   not inlinable: imprimeMatriz/24 -> printf/34, function body not available
+funcoesising.h:31:18: missed:   not inlinable: copiaMatriz/23 -> malloc/33, function body not available
+funcoesising.h:29:11: missed:   not inlinable: copiaMatriz/23 -> malloc/33, function body not available
+funcoesising.h:19:26: missed:   not inlinable: inicializaSpins/22 -> rand/32, function body not available
+funcoesising.h:170:25: optimized:  Inlined magnetizacao/43 into ising/30 which now has time 8117160.375000 and size 110, net change of +12.
+funcoesising.h:130:54: optimized:  Inlined probabilidade/44 into metropolis/29 which now has time 91.643600 and size 40, net change of +4.
+Unit growth for small function inlining: 390->406 (4%)
+
+Inlined 2 calls, eliminated 0 functions
+
+BB 5 is always executed in loop 1
+BB 3 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:16:18: missed: couldn't vectorize loop
+funcoesising.h:16:18: missed: not vectorized: control flow in loop.
+funcoesising.h:18:23: missed: couldn't vectorize loop
+funcoesising.h:19:26: missed: statement clobbers memory: _1 = rand ();
+funcoesising.h:12:5: note: vectorized 0 loops in function.
+funcoesising.h:19:26: missed: statement clobbers memory: _1 = rand ();
+funcoesising.h:19:26: missed: statement clobbers memory: _1 = rand ();
+funcoesising.h:22:12: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:22:12: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 6 is always executed in loop 1
+BB 4 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+BB 5 is always executed in loop 2
+BB 6 is always executed in loop 2
+BB 4 is always executed in loop 3
+BB 3 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 3's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+consider run-time aliasing test between *_15 and *_18
+consider run-time aliasing test between *_15 and *_18
+funcoesising.h:33:18: missed: couldn't vectorize loop
+funcoesising.h:33:18: missed: not vectorized: control flow in loop.
+funcoesising.h:35:22: missed: couldn't vectorize loop
+funcoesising.h:35:22: missed: not vectorized: unsupported data-type
+funcoesising.h:30:18: missed: couldn't vectorize loop
+funcoesising.h:31:18: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:25:7: note: vectorized 0 loops in function.
+funcoesising.h:31:18: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:29:11: missed: statement clobbers memory: aux_29 = malloc (_2);
+funcoesising.h:31:18: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:43:12: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:43:12: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 7 is always executed in loop 2
+BB 8 is always executed in loop 2
+BB 6 is always executed in loop 3
+BB 4 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 3's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+BB 5 is always executed in loop 1
+BB 3 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:54:23: missed: couldn't vectorize loop
+funcoesising.h:54:23: missed: not vectorized: control flow in loop.
+funcoesising.h:56:27: missed: couldn't vectorize loop
+funcoesising.h:58:13: missed: statement clobbers memory: printf ("%d\t", _8);
+funcoesising.h:52:6: note: vectorized 0 loops in function.
+funcoesising.h:58:13: missed: failed: evolution of base is not affine.
+funcoesising.h:58:13: missed: statement clobbers memory: printf ("%d\t", _8);
+funcoesising.h:58:13: missed: statement clobbers memory: printf ("%d\t", _8);
+funcoesising.h:62:9: missed: statement clobbers memory: __builtin_putchar (10);
+funcoesising.h:66:1: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:66:1: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 6 is always executed in loop 1
+BB 4 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:75:27: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:75:27: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+funcoesising.h:81:17: missed: statement clobbers memory: _1 = variaEnergia (mat_5(D), m_6(D), n_7(D));
+funcoesising.h:81:12: missed: statement clobbers memory: _10 = exp (_3);
+funcoesising.h:81:12: note: ***** Analysis failed with vector mode VOID
+BB 4 is always executed in loop 1
+BB 5 is always executed in loop 1
+BB 3 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:89:22: missed: couldn't vectorize loop
+funcoesising.h:89:22: missed: not vectorized: control flow in loop.
+funcoesising.h:91:26: missed: couldn't vectorize loop
+funcoesising.h:85:8: missed: not vectorized: unsupported data-type double
+funcoesising.h:85:8: note: vectorized 0 loops in function.
+funcoesising.h:99:21: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:99:21: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 4 is always executed in loop 1
+BB 5 is always executed in loop 1
+BB 3 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+BB 4 is always executed in loop 1
+BB 5 is always executed in loop 1
+BB 3 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:110:28: missed: failed: evolution of base is not affine.
+funcoesising.h:111:28: missed: failed: evolution of base is not affine.
+funcoesising.h:112:17: missed: failed: evolution of base is not affine.
+funcoesising.h:113:17: missed: failed: evolution of base is not affine.
+funcoesising.h:112:17: missed: failed: evolution of base is not affine.
+funcoesising.h:113:17: missed: failed: evolution of base is not affine.
+funcoesising.h:106:22: missed: couldn't vectorize loop
+funcoesising.h:106:22: missed: not vectorized: control flow in loop.
+funcoesising.h:108:26: missed: couldn't vectorize loop
+funcoesising.h:102:8: missed: not vectorized: unsupported data-type double
+funcoesising.h:102:8: note: vectorized 0 loops in function.
+funcoesising.h:112:17: missed: failed: evolution of base is not affine.
+funcoesising.h:113:17: missed: failed: evolution of base is not affine.
+funcoesising.h:120:19: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:120:19: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 5 is always executed in loop 1
+BB 6 is always executed in loop 1
+BB 4 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:125:13: missed: statement clobbers memory: _1 = rand ();
+funcoesising.h:126:13: missed: statement clobbers memory: _2 = rand ();
+funcoesising.h:128:20: missed: statement clobbers memory: delta_26 = variaEnergia (mat_25(D), a_21, b_24);
+funcoesising.h:130:25: missed: statement clobbers memory: _3 = rand ();
+funcoesising.h:81:17: missed: statement clobbers memory: _31 = variaEnergia (mat_25(D), a_21, b_24);
+funcoesising.h:81:12: missed: statement clobbers memory: _34 = exp (_33);
+funcoesising.h:133:1: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:133:1: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 7 is always executed in loop 2
+BB 14 is always executed in loop 2
+BB 8 is always executed in loop 4
+BB 10 is always executed in loop 5
+BB 11 is always executed in loop 5
+BB 9 is always executed in loop 6
+BB 5 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 4's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 5's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 6's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 3's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:156:34: missed: couldn't vectorize loop
+funcoesising.h:156:34: missed: not vectorized: loop nest containing two or more consecutive inner loops cannot be vectorized
+funcoesising.h:166:26: missed: couldn't vectorize loop
+funcoesising.h:166:26: missed: not vectorized: multiple nested loops.
+funcoesising.h:89:22: missed: couldn't vectorize loop
+funcoesising.h:89:22: missed: not vectorized: control flow in loop.
+funcoesising.h:91:26: missed: couldn't vectorize loop
+funcoesising.h:135:7: missed: not vectorized: unsupported data-type double
+funcoesising.h:161:26: missed: couldn't vectorize loop
+funcoesising.h:162:13: missed: statement clobbers memory: metropolis (mat1_50, m_44(D), n_48(D), temp_112);
+funcoesising.h:147:22: missed: couldn't vectorize loop
+funcoesising.h:148:19: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:135:7: note: vectorized 0 loops in function.
+funcoesising.h:148:19: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:162:13: missed: statement clobbers memory: metropolis (mat1_50, m_44(D), n_48(D), temp_112);
+funcoesising.h:140:16: missed: statement clobbers memory: fp_43 = fopen ("dados.dat", "w");
+funcoesising.h:146:12: missed: statement clobbers memory: mat1_46 = malloc (_2);
+funcoesising.h:148:19: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:150:12: missed: statement clobbers memory: mat1_50 = copiaMatriz (mat_47(D), m_44(D), n_48(D));
+funcoesising.h:154:5: missed: statement clobbers memory: __builtin_fwrite ("Temperatura\tMagnetizacao\tEnergia\tCalor Especifico\tSuscetibilidade Magn\xc3\xa9tica\n", 1, 77, fp_43);
+funcoesising.h:162:13: missed: statement clobbers memory: metropolis (mat1_50, m_44(D), n_48(D), temp_112);
+funcoesising.h:168:13: missed: statement clobbers memory: metropolis (mat1_50, m_44(D), n_48(D), temp_112);
+funcoesising.h:173:20: missed: statement clobbers memory: _61 = energiaTotal (mat1_50, m_44(D), n_48(D));
+funcoesising.h:179:9: missed: statement clobbers memory: fprintf (fp_43, "\n%g\t%g\t%g\t%g\t%g\n", temp_112, _28, _11, calor_52, susce_53);
+funcoesising.h:142:9: missed: statement clobbers memory: __builtin_puts (&"\nErro ao abrir arquivo!"[0]);
+funcoesising.h:143:9: missed: statement clobbers memory: exit (1);
+funcoesising.h:143:9: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:143:9: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 8 is always executed in loop 2
+BB 16 is always executed in loop 2
+BB 9 is always executed in loop 4
+BB 12 is always executed in loop 5
+BB 13 is always executed in loop 5
+BB 11 is always executed in loop 6
+BB 6 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 4's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 5's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 6's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 3's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+BB 5 is always executed in loop 2
+BB 3 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+modeloising.c:21:22: missed: couldn't vectorize loop
+modeloising.c:22:22: missed: statement clobbers memory: _8 = malloc (40);
+modeloising.c:15:22: missed: couldn't vectorize loop
+modeloising.c:16:22: missed: statement clobbers memory: _4 = malloc (40);
+modeloising.c:8:5: note: vectorized 0 loops in function.
+modeloising.c:16:22: missed: statement clobbers memory: _4 = malloc (40);
+modeloising.c:22:22: missed: statement clobbers memory: _8 = malloc (40);
+modeloising.c:10:22: missed: statement clobbers memory: inicio_17 = clock ();
+modeloising.c:14:15: missed: statement clobbers memory: matriz1_19 = malloc (80);
+modeloising.c:16:22: missed: statement clobbers memory: _4 = malloc (40);
+modeloising.c:20:15: missed: statement clobbers memory: matriz2_21 = malloc (80);
+modeloising.c:22:22: missed: statement clobbers memory: _8 = malloc (40);
+modeloising.c:26:5: missed: statement clobbers memory: inicializaSpins (matriz1_19, 10, 10);
+modeloising.c:29:5: missed: statement clobbers memory: __builtin_puts (&"\nMalha:"[0]);
+modeloising.c:30:5: missed: statement clobbers memory: imprimeMatriz (matriz1_19, 10, 10);
+modeloising.c:32:5: missed: statement clobbers memory: __builtin_putchar (10);
+modeloising.c:34:15: missed: statement clobbers memory: matriz2_27 = ising (matriz1_19, 10, 10);
+modeloising.c:36:5: missed: statement clobbers memory: __builtin_puts (&"\nEstado final da malha:"[0]);
+modeloising.c:38:5: missed: statement clobbers memory: imprimeMatriz (matriz2_27, 10, 10);
+modeloising.c:40:19: missed: statement clobbers memory: fim_31 = clock ();
+modeloising.c:44:5: missed: statement clobbers memory: printf ("\nO tempo de execu\xc3\xa7\xc3\xa3o foi de %lf segundos.", tempo_32);
+modeloising.c:8:5: note: ***** Analysis failed with vector mode V2DI
+modeloising.c:8:5: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 5 is always executed in loop 2
+BB 3 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:81:17: note: Considering inline candidate variaEnergia/25.
+funcoesising.h:81:17: missed:   will not early inline: probabilidade/26->variaEnergia/25, call is cold and code would grow at least by 15
+funcoesising.h:130:54: note: Considering inline candidate probabilidade/26.
+funcoesising.h:130:54: missed:   will not early inline: metropolis/29->probabilidade/26, growth 4 exceeds --param early-inlining-insns divided by number of calls
+funcoesising.h:128:20: note: Considering inline candidate variaEnergia/25.
+funcoesising.h:128:20: missed:   will not early inline: metropolis/29->variaEnergia/25, call is cold and code would grow at least by 15
+funcoesising.h:174:48: note: Considering inline candidate energiaTotal/28.
+funcoesising.h:174:48: missed:   will not early inline: ising/30->energiaTotal/28, call is cold and code would grow at least by 39
+funcoesising.h:174:21: note: Considering inline candidate energiaTotal/28.
+funcoesising.h:174:21: missed:   will not early inline: ising/30->energiaTotal/28, call is cold and code would grow at least by 39
+funcoesising.h:173:20: note: Considering inline candidate energiaTotal/28.
+funcoesising.h:173:20: missed:   will not early inline: ising/30->energiaTotal/28, call is cold and code would grow at least by 39
+funcoesising.h:171:48: note: Considering inline candidate magnetizacao/27.
+funcoesising.h:171:48: missed:   will not early inline: ising/30->magnetizacao/27, call is cold and code would grow at least by 10
+funcoesising.h:171:21: note: Considering inline candidate magnetizacao/27.
+funcoesising.h:171:21: missed:   will not early inline: ising/30->magnetizacao/27, call is cold and code would grow at least by 10
+funcoesising.h:170:25: note: Considering inline candidate magnetizacao/27.
+funcoesising.h:170:25: missed:   will not early inline: ising/30->magnetizacao/27, call is cold and code would grow at least by 10
+funcoesising.h:168:13: note: Considering inline candidate metropolis/29.
+funcoesising.h:168:13: missed:   will not early inline: ising/30->metropolis/29, call is cold and code would grow at least by 28
+funcoesising.h:162:13: note: Considering inline candidate metropolis/29.
+funcoesising.h:162:13: missed:   will not early inline: ising/30->metropolis/29, call is cold and code would grow at least by 28
+funcoesising.h:150:12: note: Considering inline candidate copiaMatriz/23.
+funcoesising.h:150:12: missed:   will not early inline: ising/30->copiaMatriz/23, call is cold and code would grow at least by 23
+modeloising.c:38:5: note: Considering inline candidate imprimeMatriz/24.
+modeloising.c:38:5: missed:   will not early inline: main/31->imprimeMatriz/24, call is cold and code would grow at least by 13
+modeloising.c:34:15: note: Considering inline candidate ising/30.
+modeloising.c:34:15: missed:   will not early inline: main/31->ising/30, call is cold and code would grow at least by 86
+modeloising.c:30:5: note: Considering inline candidate imprimeMatriz/24.
+modeloising.c:30:5: missed:   will not early inline: main/31->imprimeMatriz/24, call is cold and code would grow at least by 13
+modeloising.c:26:5: note: Considering inline candidate inicializaSpins/22.
+modeloising.c:26:5: missed:   will not early inline: main/31->inicializaSpins/22, call is cold and code would grow at least by 13
+modeloising.c:44:5: missed:   not inlinable: main/31 -> printf/34, function body not available
+modeloising.c:40:19: missed:   not inlinable: main/31 -> clock/42, function body not available
+modeloising.c:38:5: missed:   not inlinable: main/31 -> imprimeMatriz/24, call is unlikely and code size would grow
+modeloising.c:36:5: missed:   not inlinable: main/31 -> __builtin_puts/38, function body not available
+modeloising.c:34:15: missed:   not inlinable: main/31 -> ising/30, --param max-inline-insns-auto limit reached
+modeloising.c:32:5: missed:   not inlinable: main/31 -> __builtin_putchar/35, function body not available
+modeloising.c:30:5: missed:   not inlinable: main/31 -> imprimeMatriz/24, call is unlikely and code size would grow
+modeloising.c:29:5: missed:   not inlinable: main/31 -> __builtin_puts/38, function body not available
+modeloising.c:26:5: missed:   not inlinable: main/31 -> inicializaSpins/22, call is unlikely and code size would grow
+modeloising.c:22:22: missed:   not inlinable: main/31 -> malloc/33, function body not available
+modeloising.c:20:15: missed:   not inlinable: main/31 -> malloc/33, function body not available
+modeloising.c:16:22: missed:   not inlinable: main/31 -> malloc/33, function body not available
+modeloising.c:14:15: missed:   not inlinable: main/31 -> malloc/33, function body not available
+modeloising.c:10:22: missed:   not inlinable: main/31 -> clock/42, function body not available
+funcoesising.h:179:9: missed:   not inlinable: ising/30 -> fprintf/41, function body not available
+funcoesising.h:173:20: missed:   not inlinable: ising/30 -> energiaTotal/28, --param max-inline-insns-auto limit reached
+funcoesising.h:168:13: missed:   not inlinable: ising/30 -> metropolis/29, --param max-inline-insns-auto limit reached
+funcoesising.h:162:13: missed:   not inlinable: ising/30 -> metropolis/29, --param max-inline-insns-auto limit reached
+funcoesising.h:154:5: missed:   not inlinable: ising/30 -> __builtin_fwrite/40, function body not available
+funcoesising.h:150:12: missed:   not inlinable: ising/30 -> copiaMatriz/23, --param max-inline-insns-auto limit reached
+funcoesising.h:148:19: missed:   not inlinable: ising/30 -> malloc/33, function body not available
+funcoesising.h:146:12: missed:   not inlinable: ising/30 -> malloc/33, function body not available
+funcoesising.h:143:9: missed:   not inlinable: ising/30 -> exit/39, function body not available
+funcoesising.h:142:9: missed:   not inlinable: ising/30 -> __builtin_puts/38, function body not available
+funcoesising.h:140:16: missed:   not inlinable: ising/30 -> fopen/37, function body not available
+funcoesising.h:130:25: missed:   not inlinable: metropolis/29 -> rand/32, function body not available
+funcoesising.h:128:20: missed:   not inlinable: metropolis/29 -> variaEnergia/25, --param max-inline-insns-auto limit reached
+funcoesising.h:126:13: missed:   not inlinable: metropolis/29 -> rand/32, function body not available
+funcoesising.h:125:13: missed:   not inlinable: metropolis/29 -> rand/32, function body not available
+funcoesising.h:81:12: missed:   not inlinable: probabilidade/26 -> exp/36, function body not available
+funcoesising.h:81:17: missed:   not inlinable: probabilidade/26 -> variaEnergia/25, --param max-inline-insns-auto limit reached
+funcoesising.h:62:9: missed:   not inlinable: imprimeMatriz/24 -> __builtin_putchar/35, function body not available
+funcoesising.h:58:13: missed:   not inlinable: imprimeMatriz/24 -> printf/34, function body not available
+funcoesising.h:31:18: missed:   not inlinable: copiaMatriz/23 -> malloc/33, function body not available
+funcoesising.h:29:11: missed:   not inlinable: copiaMatriz/23 -> malloc/33, function body not available
+funcoesising.h:19:26: missed:   not inlinable: inicializaSpins/22 -> rand/32, function body not available
+funcoesising.h:170:25: optimized:  Inlined magnetizacao/43 into ising/30 which now has time 8117160.375000 and size 110, net change of +12.
+funcoesising.h:130:54: optimized:  Inlined probabilidade/44 into metropolis/29 which now has time 91.643600 and size 40, net change of +4.
+Unit growth for small function inlining: 390->406 (4%)
+
+Inlined 2 calls, eliminated 0 functions
+
+BB 5 is always executed in loop 1
+BB 3 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:16:18: missed: couldn't vectorize loop
+funcoesising.h:16:18: missed: not vectorized: control flow in loop.
+funcoesising.h:18:23: missed: couldn't vectorize loop
+funcoesising.h:19:26: missed: statement clobbers memory: _1 = rand ();
+funcoesising.h:12:5: note: vectorized 0 loops in function.
+funcoesising.h:19:26: missed: statement clobbers memory: _1 = rand ();
+funcoesising.h:19:26: missed: statement clobbers memory: _1 = rand ();
+funcoesising.h:22:12: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:22:12: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 6 is always executed in loop 1
+BB 4 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+BB 5 is always executed in loop 2
+BB 6 is always executed in loop 2
+BB 4 is always executed in loop 3
+BB 3 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 3's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+consider run-time aliasing test between *_15 and *_18
+consider run-time aliasing test between *_15 and *_18
+funcoesising.h:33:18: missed: couldn't vectorize loop
+funcoesising.h:33:18: missed: not vectorized: control flow in loop.
+funcoesising.h:35:22: missed: couldn't vectorize loop
+funcoesising.h:35:22: missed: not vectorized: unsupported data-type
+funcoesising.h:30:18: missed: couldn't vectorize loop
+funcoesising.h:31:18: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:25:7: note: vectorized 0 loops in function.
+funcoesising.h:31:18: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:29:11: missed: statement clobbers memory: aux_29 = malloc (_2);
+funcoesising.h:31:18: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:43:12: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:43:12: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 7 is always executed in loop 2
+BB 8 is always executed in loop 2
+BB 6 is always executed in loop 3
+BB 4 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 3's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+BB 5 is always executed in loop 1
+BB 3 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:54:23: missed: couldn't vectorize loop
+funcoesising.h:54:23: missed: not vectorized: control flow in loop.
+funcoesising.h:56:27: missed: couldn't vectorize loop
+funcoesising.h:58:13: missed: statement clobbers memory: printf ("%d\t", _8);
+funcoesising.h:52:6: note: vectorized 0 loops in function.
+funcoesising.h:58:13: missed: failed: evolution of base is not affine.
+funcoesising.h:58:13: missed: statement clobbers memory: printf ("%d\t", _8);
+funcoesising.h:58:13: missed: statement clobbers memory: printf ("%d\t", _8);
+funcoesising.h:62:9: missed: statement clobbers memory: __builtin_putchar (10);
+funcoesising.h:66:1: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:66:1: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 6 is always executed in loop 1
+BB 4 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:75:27: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:75:27: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+funcoesising.h:81:17: missed: statement clobbers memory: _1 = variaEnergia (mat_5(D), m_6(D), n_7(D));
+funcoesising.h:81:12: missed: statement clobbers memory: _10 = exp (_3);
+funcoesising.h:81:12: note: ***** Analysis failed with vector mode VOID
+BB 4 is always executed in loop 1
+BB 5 is always executed in loop 1
+BB 3 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:89:22: missed: couldn't vectorize loop
+funcoesising.h:89:22: missed: not vectorized: control flow in loop.
+funcoesising.h:91:26: missed: couldn't vectorize loop
+funcoesising.h:85:8: missed: not vectorized: unsupported data-type double
+funcoesising.h:85:8: note: vectorized 0 loops in function.
+funcoesising.h:99:21: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:99:21: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 4 is always executed in loop 1
+BB 5 is always executed in loop 1
+BB 3 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+BB 4 is always executed in loop 1
+BB 5 is always executed in loop 1
+BB 3 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:110:28: missed: failed: evolution of base is not affine.
+funcoesising.h:111:28: missed: failed: evolution of base is not affine.
+funcoesising.h:112:17: missed: failed: evolution of base is not affine.
+funcoesising.h:113:17: missed: failed: evolution of base is not affine.
+funcoesising.h:112:17: missed: failed: evolution of base is not affine.
+funcoesising.h:113:17: missed: failed: evolution of base is not affine.
+funcoesising.h:106:22: missed: couldn't vectorize loop
+funcoesising.h:106:22: missed: not vectorized: control flow in loop.
+funcoesising.h:108:26: missed: couldn't vectorize loop
+funcoesising.h:102:8: missed: not vectorized: unsupported data-type double
+funcoesising.h:102:8: note: vectorized 0 loops in function.
+funcoesising.h:112:17: missed: failed: evolution of base is not affine.
+funcoesising.h:113:17: missed: failed: evolution of base is not affine.
+funcoesising.h:120:19: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:120:19: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 5 is always executed in loop 1
+BB 6 is always executed in loop 1
+BB 4 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:125:13: missed: statement clobbers memory: _1 = rand ();
+funcoesising.h:126:13: missed: statement clobbers memory: _2 = rand ();
+funcoesising.h:128:20: missed: statement clobbers memory: delta_26 = variaEnergia (mat_25(D), a_21, b_24);
+funcoesising.h:130:25: missed: statement clobbers memory: _3 = rand ();
+funcoesising.h:81:17: missed: statement clobbers memory: _31 = variaEnergia (mat_25(D), a_21, b_24);
+funcoesising.h:81:12: missed: statement clobbers memory: _34 = exp (_33);
+funcoesising.h:133:1: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:133:1: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 7 is always executed in loop 2
+BB 14 is always executed in loop 2
+BB 8 is always executed in loop 4
+BB 10 is always executed in loop 5
+BB 11 is always executed in loop 5
+BB 9 is always executed in loop 6
+BB 5 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 4's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 5's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 6's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 3's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:156:34: missed: couldn't vectorize loop
+funcoesising.h:156:34: missed: not vectorized: loop nest containing two or more consecutive inner loops cannot be vectorized
+funcoesising.h:166:26: missed: couldn't vectorize loop
+funcoesising.h:166:26: missed: not vectorized: multiple nested loops.
+funcoesising.h:89:22: missed: couldn't vectorize loop
+funcoesising.h:89:22: missed: not vectorized: control flow in loop.
+funcoesising.h:91:26: missed: couldn't vectorize loop
+funcoesising.h:135:7: missed: not vectorized: unsupported data-type double
+funcoesising.h:161:26: missed: couldn't vectorize loop
+funcoesising.h:162:13: missed: statement clobbers memory: metropolis (mat1_50, m_44(D), n_48(D), temp_112);
+funcoesising.h:147:22: missed: couldn't vectorize loop
+funcoesising.h:148:19: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:135:7: note: vectorized 0 loops in function.
+funcoesising.h:148:19: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:162:13: missed: statement clobbers memory: metropolis (mat1_50, m_44(D), n_48(D), temp_112);
+funcoesising.h:140:16: missed: statement clobbers memory: fp_43 = fopen ("dados.dat", "w");
+funcoesising.h:146:12: missed: statement clobbers memory: mat1_46 = malloc (_2);
+funcoesising.h:148:19: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:150:12: missed: statement clobbers memory: mat1_50 = copiaMatriz (mat_47(D), m_44(D), n_48(D));
+funcoesising.h:154:5: missed: statement clobbers memory: __builtin_fwrite ("Temperatura\tMagnetizacao\tEnergia\tCalor Especifico\tSuscetibilidade Magn\xc3\xa9tica\n", 1, 77, fp_43);
+funcoesising.h:162:13: missed: statement clobbers memory: metropolis (mat1_50, m_44(D), n_48(D), temp_112);
+funcoesising.h:168:13: missed: statement clobbers memory: metropolis (mat1_50, m_44(D), n_48(D), temp_112);
+funcoesising.h:173:20: missed: statement clobbers memory: _61 = energiaTotal (mat1_50, m_44(D), n_48(D));
+funcoesising.h:179:9: missed: statement clobbers memory: fprintf (fp_43, "\n%g\t%g\t%g\t%g\t%g\n", temp_112, _28, _11, calor_52, susce_53);
+funcoesising.h:142:9: missed: statement clobbers memory: __builtin_puts (&"\nErro ao abrir arquivo!"[0]);
+funcoesising.h:143:9: missed: statement clobbers memory: exit (1);
+funcoesising.h:143:9: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:143:9: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 8 is always executed in loop 2
+BB 16 is always executed in loop 2
+BB 9 is always executed in loop 4
+BB 12 is always executed in loop 5
+BB 13 is always executed in loop 5
+BB 11 is always executed in loop 6
+BB 6 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 4's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 5's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 6's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 3's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+BB 5 is always executed in loop 2
+BB 3 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+modeloising.c:21:22: missed: couldn't vectorize loop
+modeloising.c:22:22: missed: statement clobbers memory: _8 = malloc (40);
+modeloising.c:15:22: missed: couldn't vectorize loop
+modeloising.c:16:22: missed: statement clobbers memory: _4 = malloc (40);
+modeloising.c:8:5: note: vectorized 0 loops in function.
+modeloising.c:16:22: missed: statement clobbers memory: _4 = malloc (40);
+modeloising.c:22:22: missed: statement clobbers memory: _8 = malloc (40);
+modeloising.c:10:22: missed: statement clobbers memory: inicio_17 = clock ();
+modeloising.c:14:15: missed: statement clobbers memory: matriz1_19 = malloc (80);
+modeloising.c:16:22: missed: statement clobbers memory: _4 = malloc (40);
+modeloising.c:20:15: missed: statement clobbers memory: matriz2_21 = malloc (80);
+modeloising.c:22:22: missed: statement clobbers memory: _8 = malloc (40);
+modeloising.c:26:5: missed: statement clobbers memory: inicializaSpins (matriz1_19, 10, 10);
+modeloising.c:29:5: missed: statement clobbers memory: __builtin_puts (&"\nMalha:"[0]);
+modeloising.c:30:5: missed: statement clobbers memory: imprimeMatriz (matriz1_19, 10, 10);
+modeloising.c:32:5: missed: statement clobbers memory: __builtin_putchar (10);
+modeloising.c:34:15: missed: statement clobbers memory: matriz2_27 = ising (matriz1_19, 10, 10);
+modeloising.c:36:5: missed: statement clobbers memory: __builtin_puts (&"\nEstado final da malha:"[0]);
+modeloising.c:38:5: missed: statement clobbers memory: imprimeMatriz (matriz2_27, 10, 10);
+modeloising.c:40:19: missed: statement clobbers memory: fim_31 = clock ();
+modeloising.c:44:5: missed: statement clobbers memory: printf ("\nO tempo de execu\xc3\xa7\xc3\xa3o foi de %lf segundos.", tempo_32);
+modeloising.c:8:5: note: ***** Analysis failed with vector mode V2DI
+modeloising.c:8:5: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 5 is always executed in loop 2
+BB 3 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:81:17: note: Considering inline candidate variaEnergia/25.
+funcoesising.h:81:17: missed:   will not early inline: probabilidade/26->variaEnergia/25, call is cold and code would grow at least by 15
+funcoesising.h:130:54: note: Considering inline candidate probabilidade/26.
+funcoesising.h:130:54: missed:   will not early inline: metropolis/29->probabilidade/26, growth 4 exceeds --param early-inlining-insns divided by number of calls
+funcoesising.h:128:20: note: Considering inline candidate variaEnergia/25.
+funcoesising.h:128:20: missed:   will not early inline: metropolis/29->variaEnergia/25, call is cold and code would grow at least by 15
+funcoesising.h:174:48: note: Considering inline candidate energiaTotal/28.
+funcoesising.h:174:48: missed:   will not early inline: ising/30->energiaTotal/28, call is cold and code would grow at least by 39
+funcoesising.h:174:21: note: Considering inline candidate energiaTotal/28.
+funcoesising.h:174:21: missed:   will not early inline: ising/30->energiaTotal/28, call is cold and code would grow at least by 39
+funcoesising.h:173:20: note: Considering inline candidate energiaTotal/28.
+funcoesising.h:173:20: missed:   will not early inline: ising/30->energiaTotal/28, call is cold and code would grow at least by 39
+funcoesising.h:171:48: note: Considering inline candidate magnetizacao/27.
+funcoesising.h:171:48: missed:   will not early inline: ising/30->magnetizacao/27, call is cold and code would grow at least by 10
+funcoesising.h:171:21: note: Considering inline candidate magnetizacao/27.
+funcoesising.h:171:21: missed:   will not early inline: ising/30->magnetizacao/27, call is cold and code would grow at least by 10
+funcoesising.h:170:25: note: Considering inline candidate magnetizacao/27.
+funcoesising.h:170:25: missed:   will not early inline: ising/30->magnetizacao/27, call is cold and code would grow at least by 10
+funcoesising.h:168:13: note: Considering inline candidate metropolis/29.
+funcoesising.h:168:13: missed:   will not early inline: ising/30->metropolis/29, call is cold and code would grow at least by 28
+funcoesising.h:162:13: note: Considering inline candidate metropolis/29.
+funcoesising.h:162:13: missed:   will not early inline: ising/30->metropolis/29, call is cold and code would grow at least by 28
+funcoesising.h:150:12: note: Considering inline candidate copiaMatriz/23.
+funcoesising.h:150:12: missed:   will not early inline: ising/30->copiaMatriz/23, call is cold and code would grow at least by 23
+modeloising.c:38:5: note: Considering inline candidate imprimeMatriz/24.
+modeloising.c:38:5: missed:   will not early inline: main/31->imprimeMatriz/24, call is cold and code would grow at least by 13
+modeloising.c:34:15: note: Considering inline candidate ising/30.
+modeloising.c:34:15: missed:   will not early inline: main/31->ising/30, call is cold and code would grow at least by 86
+modeloising.c:30:5: note: Considering inline candidate imprimeMatriz/24.
+modeloising.c:30:5: missed:   will not early inline: main/31->imprimeMatriz/24, call is cold and code would grow at least by 13
+modeloising.c:26:5: note: Considering inline candidate inicializaSpins/22.
+modeloising.c:26:5: missed:   will not early inline: main/31->inicializaSpins/22, call is cold and code would grow at least by 13
+modeloising.c:44:5: missed:   not inlinable: main/31 -> printf/34, function body not available
+modeloising.c:40:19: missed:   not inlinable: main/31 -> clock/42, function body not available
+modeloising.c:38:5: missed:   not inlinable: main/31 -> imprimeMatriz/24, call is unlikely and code size would grow
+modeloising.c:36:5: missed:   not inlinable: main/31 -> __builtin_puts/38, function body not available
+modeloising.c:34:15: missed:   not inlinable: main/31 -> ising/30, --param max-inline-insns-auto limit reached
+modeloising.c:32:5: missed:   not inlinable: main/31 -> __builtin_putchar/35, function body not available
+modeloising.c:30:5: missed:   not inlinable: main/31 -> imprimeMatriz/24, call is unlikely and code size would grow
+modeloising.c:29:5: missed:   not inlinable: main/31 -> __builtin_puts/38, function body not available
+modeloising.c:26:5: missed:   not inlinable: main/31 -> inicializaSpins/22, call is unlikely and code size would grow
+modeloising.c:22:22: missed:   not inlinable: main/31 -> malloc/33, function body not available
+modeloising.c:20:15: missed:   not inlinable: main/31 -> malloc/33, function body not available
+modeloising.c:16:22: missed:   not inlinable: main/31 -> malloc/33, function body not available
+modeloising.c:14:15: missed:   not inlinable: main/31 -> malloc/33, function body not available
+modeloising.c:10:22: missed:   not inlinable: main/31 -> clock/42, function body not available
+funcoesising.h:179:9: missed:   not inlinable: ising/30 -> fprintf/41, function body not available
+funcoesising.h:173:20: missed:   not inlinable: ising/30 -> energiaTotal/28, --param max-inline-insns-auto limit reached
+funcoesising.h:168:13: missed:   not inlinable: ising/30 -> metropolis/29, --param max-inline-insns-auto limit reached
+funcoesising.h:162:13: missed:   not inlinable: ising/30 -> metropolis/29, --param max-inline-insns-auto limit reached
+funcoesising.h:154:5: missed:   not inlinable: ising/30 -> __builtin_fwrite/40, function body not available
+funcoesising.h:150:12: missed:   not inlinable: ising/30 -> copiaMatriz/23, --param max-inline-insns-auto limit reached
+funcoesising.h:148:19: missed:   not inlinable: ising/30 -> malloc/33, function body not available
+funcoesising.h:146:12: missed:   not inlinable: ising/30 -> malloc/33, function body not available
+funcoesising.h:143:9: missed:   not inlinable: ising/30 -> exit/39, function body not available
+funcoesising.h:142:9: missed:   not inlinable: ising/30 -> __builtin_puts/38, function body not available
+funcoesising.h:140:16: missed:   not inlinable: ising/30 -> fopen/37, function body not available
+funcoesising.h:130:25: missed:   not inlinable: metropolis/29 -> rand/32, function body not available
+funcoesising.h:128:20: missed:   not inlinable: metropolis/29 -> variaEnergia/25, --param max-inline-insns-auto limit reached
+funcoesising.h:126:13: missed:   not inlinable: metropolis/29 -> rand/32, function body not available
+funcoesising.h:125:13: missed:   not inlinable: metropolis/29 -> rand/32, function body not available
+funcoesising.h:81:12: missed:   not inlinable: probabilidade/26 -> exp/36, function body not available
+funcoesising.h:81:17: missed:   not inlinable: probabilidade/26 -> variaEnergia/25, --param max-inline-insns-auto limit reached
+funcoesising.h:62:9: missed:   not inlinable: imprimeMatriz/24 -> __builtin_putchar/35, function body not available
+funcoesising.h:58:13: missed:   not inlinable: imprimeMatriz/24 -> printf/34, function body not available
+funcoesising.h:31:18: missed:   not inlinable: copiaMatriz/23 -> malloc/33, function body not available
+funcoesising.h:29:11: missed:   not inlinable: copiaMatriz/23 -> malloc/33, function body not available
+funcoesising.h:19:26: missed:   not inlinable: inicializaSpins/22 -> rand/32, function body not available
+funcoesising.h:170:25: optimized:  Inlined magnetizacao/43 into ising/30 which now has time 8117160.375000 and size 110, net change of +12.
+funcoesising.h:130:54: optimized:  Inlined probabilidade/44 into metropolis/29 which now has time 91.643600 and size 40, net change of +4.
+Unit growth for small function inlining: 390->406 (4%)
+
+Inlined 2 calls, eliminated 0 functions
+
+BB 5 is always executed in loop 1
+BB 3 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:16:18: missed: couldn't vectorize loop
+funcoesising.h:16:18: missed: not vectorized: control flow in loop.
+funcoesising.h:18:23: missed: couldn't vectorize loop
+funcoesising.h:19:26: missed: statement clobbers memory: _1 = rand ();
+funcoesising.h:12:5: note: vectorized 0 loops in function.
+funcoesising.h:19:26: missed: statement clobbers memory: _1 = rand ();
+funcoesising.h:19:26: missed: statement clobbers memory: _1 = rand ();
+funcoesising.h:22:12: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:22:12: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 6 is always executed in loop 1
+BB 4 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+BB 5 is always executed in loop 2
+BB 6 is always executed in loop 2
+BB 4 is always executed in loop 3
+BB 3 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 3's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+consider run-time aliasing test between *_15 and *_18
+consider run-time aliasing test between *_15 and *_18
+funcoesising.h:33:18: missed: couldn't vectorize loop
+funcoesising.h:33:18: missed: not vectorized: control flow in loop.
+funcoesising.h:35:22: missed: couldn't vectorize loop
+funcoesising.h:35:22: missed: not vectorized: unsupported data-type
+funcoesising.h:30:18: missed: couldn't vectorize loop
+funcoesising.h:31:18: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:25:7: note: vectorized 0 loops in function.
+funcoesising.h:31:18: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:29:11: missed: statement clobbers memory: aux_29 = malloc (_2);
+funcoesising.h:31:18: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:43:12: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:43:12: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 7 is always executed in loop 2
+BB 8 is always executed in loop 2
+BB 6 is always executed in loop 3
+BB 4 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 3's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+BB 5 is always executed in loop 1
+BB 3 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:54:23: missed: couldn't vectorize loop
+funcoesising.h:54:23: missed: not vectorized: control flow in loop.
+funcoesising.h:56:27: missed: couldn't vectorize loop
+funcoesising.h:58:13: missed: statement clobbers memory: printf ("%d\t", _8);
+funcoesising.h:52:6: note: vectorized 0 loops in function.
+funcoesising.h:58:13: missed: failed: evolution of base is not affine.
+funcoesising.h:58:13: missed: statement clobbers memory: printf ("%d\t", _8);
+funcoesising.h:58:13: missed: statement clobbers memory: printf ("%d\t", _8);
+funcoesising.h:62:9: missed: statement clobbers memory: __builtin_putchar (10);
+funcoesising.h:66:1: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:66:1: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 6 is always executed in loop 1
+BB 4 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:75:27: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:75:27: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+funcoesising.h:81:17: missed: statement clobbers memory: _1 = variaEnergia (mat_5(D), m_6(D), n_7(D));
+funcoesising.h:81:12: missed: statement clobbers memory: _10 = exp (_3);
+funcoesising.h:81:12: note: ***** Analysis failed with vector mode VOID
+BB 4 is always executed in loop 1
+BB 5 is always executed in loop 1
+BB 3 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:89:22: missed: couldn't vectorize loop
+funcoesising.h:89:22: missed: not vectorized: control flow in loop.
+funcoesising.h:91:26: missed: couldn't vectorize loop
+funcoesising.h:85:8: missed: not vectorized: unsupported data-type double
+funcoesising.h:85:8: note: vectorized 0 loops in function.
+funcoesising.h:99:21: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:99:21: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 4 is always executed in loop 1
+BB 5 is always executed in loop 1
+BB 3 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+BB 4 is always executed in loop 1
+BB 5 is always executed in loop 1
+BB 3 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:110:28: missed: failed: evolution of base is not affine.
+funcoesising.h:111:28: missed: failed: evolution of base is not affine.
+funcoesising.h:112:17: missed: failed: evolution of base is not affine.
+funcoesising.h:113:17: missed: failed: evolution of base is not affine.
+funcoesising.h:112:17: missed: failed: evolution of base is not affine.
+funcoesising.h:113:17: missed: failed: evolution of base is not affine.
+funcoesising.h:106:22: missed: couldn't vectorize loop
+funcoesising.h:106:22: missed: not vectorized: control flow in loop.
+funcoesising.h:108:26: missed: couldn't vectorize loop
+funcoesising.h:102:8: missed: not vectorized: unsupported data-type double
+funcoesising.h:102:8: note: vectorized 0 loops in function.
+funcoesising.h:112:17: missed: failed: evolution of base is not affine.
+funcoesising.h:113:17: missed: failed: evolution of base is not affine.
+funcoesising.h:120:19: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:120:19: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 5 is always executed in loop 1
+BB 6 is always executed in loop 1
+BB 4 is always executed in loop 2
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+loop 2's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:125:13: missed: statement clobbers memory: _1 = rand ();
+funcoesising.h:126:13: missed: statement clobbers memory: _2 = rand ();
+funcoesising.h:128:20: missed: statement clobbers memory: delta_26 = variaEnergia (mat_25(D), a_21, b_24);
+funcoesising.h:130:25: missed: statement clobbers memory: _3 = rand ();
+funcoesising.h:81:17: missed: statement clobbers memory: _31 = variaEnergia (mat_25(D), a_21, b_24);
+funcoesising.h:81:12: missed: statement clobbers memory: _34 = exp (_33);
+funcoesising.h:133:1: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:133:1: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 7 is always executed in loop 2
+BB 14 is always executed in loop 2
+BB 8 is always executed in loop 4
+BB 10 is always executed in loop 5
+BB 11 is always executed in loop 5
+BB 9 is always executed in loop 6
+BB 5 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 4's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 5's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 6's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 3's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+funcoesising.h:156:34: missed: couldn't vectorize loop
+funcoesising.h:156:34: missed: not vectorized: loop nest containing two or more consecutive inner loops cannot be vectorized
+funcoesising.h:166:26: missed: couldn't vectorize loop
+funcoesising.h:166:26: missed: not vectorized: multiple nested loops.
+funcoesising.h:89:22: missed: couldn't vectorize loop
+funcoesising.h:89:22: missed: not vectorized: control flow in loop.
+funcoesising.h:91:26: missed: couldn't vectorize loop
+funcoesising.h:135:7: missed: not vectorized: unsupported data-type double
+funcoesising.h:161:26: missed: couldn't vectorize loop
+funcoesising.h:162:13: missed: statement clobbers memory: metropolis (mat1_50, m_44(D), n_48(D), temp_112);
+funcoesising.h:147:22: missed: couldn't vectorize loop
+funcoesising.h:148:19: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:135:7: note: vectorized 0 loops in function.
+funcoesising.h:148:19: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:162:13: missed: statement clobbers memory: metropolis (mat1_50, m_44(D), n_48(D), temp_112);
+funcoesising.h:140:16: missed: statement clobbers memory: fp_43 = fopen ("dados.dat", "w");
+funcoesising.h:146:12: missed: statement clobbers memory: mat1_46 = malloc (_2);
+funcoesising.h:148:19: missed: statement clobbers memory: _8 = malloc (_4);
+funcoesising.h:150:12: missed: statement clobbers memory: mat1_50 = copiaMatriz (mat_47(D), m_44(D), n_48(D));
+funcoesising.h:154:5: missed: statement clobbers memory: __builtin_fwrite ("Temperatura\tMagnetizacao\tEnergia\tCalor Especifico\tSuscetibilidade Magn\xc3\xa9tica\n", 1, 77, fp_43);
+funcoesising.h:162:13: missed: statement clobbers memory: metropolis (mat1_50, m_44(D), n_48(D), temp_112);
+funcoesising.h:168:13: missed: statement clobbers memory: metropolis (mat1_50, m_44(D), n_48(D), temp_112);
+funcoesising.h:173:20: missed: statement clobbers memory: _61 = energiaTotal (mat1_50, m_44(D), n_48(D));
+funcoesising.h:179:9: missed: statement clobbers memory: fprintf (fp_43, "\n%g\t%g\t%g\t%g\t%g\n", temp_112, _28, _11, calor_52, susce_53);
+funcoesising.h:142:9: missed: statement clobbers memory: __builtin_puts (&"\nErro ao abrir arquivo!"[0]);
+funcoesising.h:143:9: missed: statement clobbers memory: exit (1);
+funcoesising.h:143:9: note: ***** Analysis failed with vector mode V2DI
+funcoesising.h:143:9: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 8 is always executed in loop 2
+BB 16 is always executed in loop 2
+BB 9 is always executed in loop 4
+BB 12 is always executed in loop 5
+BB 13 is always executed in loop 5
+BB 11 is always executed in loop 6
+BB 6 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 4's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 5's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 6's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 3's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+BB 5 is always executed in loop 2
+BB 3 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
+modeloising.c:21:22: missed: couldn't vectorize loop
+modeloising.c:22:22: missed: statement clobbers memory: _8 = malloc (400);
+modeloising.c:15:22: missed: couldn't vectorize loop
+modeloising.c:16:22: missed: statement clobbers memory: _4 = malloc (400);
+modeloising.c:8:5: note: vectorized 0 loops in function.
+modeloising.c:16:22: missed: statement clobbers memory: _4 = malloc (400);
+modeloising.c:22:22: missed: statement clobbers memory: _8 = malloc (400);
+modeloising.c:10:22: missed: statement clobbers memory: inicio_17 = clock ();
+modeloising.c:14:15: missed: statement clobbers memory: matriz1_19 = malloc (800);
+modeloising.c:16:22: missed: statement clobbers memory: _4 = malloc (400);
+modeloising.c:20:15: missed: statement clobbers memory: matriz2_21 = malloc (800);
+modeloising.c:22:22: missed: statement clobbers memory: _8 = malloc (400);
+modeloising.c:26:5: missed: statement clobbers memory: inicializaSpins (matriz1_19, 100, 100);
+modeloising.c:29:5: missed: statement clobbers memory: __builtin_puts (&"\nMalha:"[0]);
+modeloising.c:30:5: missed: statement clobbers memory: imprimeMatriz (matriz1_19, 100, 100);
+modeloising.c:32:5: missed: statement clobbers memory: __builtin_putchar (10);
+modeloising.c:34:15: missed: statement clobbers memory: matriz2_27 = ising (matriz1_19, 100, 100);
+modeloising.c:36:5: missed: statement clobbers memory: __builtin_puts (&"\nEstado final da malha:"[0]);
+modeloising.c:38:5: missed: statement clobbers memory: imprimeMatriz (matriz2_27, 100, 100);
+modeloising.c:40:19: missed: statement clobbers memory: fim_31 = clock ();
+modeloising.c:44:5: missed: statement clobbers memory: printf ("\nO tempo de execu\xc3\xa7\xc3\xa3o foi de %lf segundos.", tempo_32);
+modeloising.c:8:5: note: ***** Analysis failed with vector mode V2DI
+modeloising.c:8:5: note: ***** Skipping vector mode V16QI, which would repeat the analysis for V2DI
+BB 5 is always executed in loop 2
+BB 3 is always executed in loop 1
+loop 2's coldest_outermost_loop is 2, hotter_than_inner_loop is NULL
+loop 1's coldest_outermost_loop is 1, hotter_than_inner_loop is NULL
